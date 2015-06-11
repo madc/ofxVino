@@ -14,8 +14,8 @@
 #define OFXVINO_API_BASE "https://api.vineapp.com"
 #define OFXVINO_MEDIA_BASE "https://media.vineapp.com"
 
-#define OFXVINO_USER_AGENT "iphone/1.3.1 (iPhone; iOS 6.0.1; Scale/2.00)"
-#define OFXVINO_CLIENT "ios/1.3.1"
+#define OFXVINO_USER_AGENT "iphone/3.4.0 (iPhone; iOS 6.0.1; Scale/2.00)"
+#define OFXVINO_CLIENT "ios/3.4.0"
 
 struct ofxVinoUser {
     string userId;
