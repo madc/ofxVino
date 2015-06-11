@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 ofxVino::ofxVino() {
 #if IS_DEBUG
-    ofSetLogLevel(OF_LOG_NOTICE);
+    ofSetLogLevel(OF_LOG_VERBOSE);
 #endif
 }
 
