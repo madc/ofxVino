@@ -4,6 +4,7 @@ ofxVino is a simple wrapper for connecting your openFrameworks app to the Vine a
 
 It has been tested on:
 - Mac OS X 10.9 with oF 0.8 and Xcode 6.1
+- Raspberry Pi B+ with oF 0.8 and Raspbian 
 
 ## Usage
 

@@ -198,6 +198,7 @@ ofxVinoPost ofxVino::getPost(string postId, bool loadMedia = false) {
     post.description = response["data"]["records"][0]["description"].asString();
     post.forsquareVenueId = response["data"]["records"][0]["forsquareVenueId"].asString();
     post.venueName = response["data"]["records"][0]["venueName"].asString();
+    post.mediaLoaded = false;
     
     if(loadMedia) {
         post.video = loadVideo(post.videoUrl);

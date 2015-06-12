@@ -1,13 +1,13 @@
 #pragma once
 #include "ofMain.h"
 
-#include <Poco/Uri.h>
-#include <Poco/StreamCopier.h>
-#include <Poco/Net/Context.h>
-#include <Poco/Net/HTTPSClientSession.h>
-#include <Poco/Net/HTTPRequest.h>
-#include <Poco/Net/HTMLForm.h>
-#include <Poco/Net/HTTPResponse.h>
+#include "Poco/Uri.h"
+#include "Poco/StreamCopier.h"
+#include "Poco/Net/Context.h"
+#include "Poco/Net/HTTPSClientSession.h"
+#include "Poco/Net/HTTPRequest.h"
+#include "Poco/Net/HTMLForm.h"
+#include "Poco/Net/HTTPResponse.h"
 
 #include "ofxJSON.h"
 
@@ -24,7 +24,7 @@ struct ofxVinoUser {
     string avatarUrl;
     string key;
     string edition;
-    bool authenticated = false;
+    bool authenticated;
 };
 
 struct ofxVinoPost {
@@ -37,7 +37,7 @@ struct ofxVinoPost {
     string forsquareVenueId;
     string venueName;
     int channelId;
-    bool mediaLoaded = false;
+    bool mediaLoaded;
     // autor?
 };
 
