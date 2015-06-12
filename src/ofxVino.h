@@ -1,7 +1,7 @@
 #pragma once
 #include "ofMain.h"
 
-#include "Poco/Uri.h"
+#include "Poco/URI.h"
 #include "Poco/StreamCopier.h"
 #include "Poco/Net/Context.h"
 #include "Poco/Net/HTTPSClientSession.h"
